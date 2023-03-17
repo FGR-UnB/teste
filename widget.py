@@ -25,5 +25,5 @@ class Widget(QWidget):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     widget = Widget()
-    widget.show()
+    widget.showFullScreen()
     sys.exit(app.exec())
