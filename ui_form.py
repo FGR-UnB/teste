@@ -8,6 +8,8 @@
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
+import PySide6
+
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -20,6 +22,10 @@ from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QLabel,
 
 class Ui_Widget(object):
     def setupUi(self, Widget):
+        avGeom = PySide6.QtGui.QDesktopWidget().availableGeometry()
+        avGeom.setTop(24)
+        self.setGeometry(avGeom)
+        
         if not Widget.objectName():
             Widget.setObjectName(u"Widget")
         Widget.resize(800, 480)

@@ -13,6 +13,11 @@
   <property name="windowTitle">
    <string>Widget</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color: rgb(44, 44, 44);
+}</string>
+  </property>
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
@@ -453,8 +458,8 @@ QProgressBar::chunk {
      <rect>
       <x>70</x>
       <y>10</y>
-      <width>71</width>
-      <height>16</height>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -466,7 +471,7 @@ QProgressBar::chunk {
      <rect>
       <x>30</x>
       <y>110</y>
-      <width>31</width>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
@@ -479,7 +484,7 @@ QProgressBar::chunk {
      <rect>
       <x>95</x>
       <y>110</y>
-      <width>31</width>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
@@ -492,7 +497,7 @@ QProgressBar::chunk {
      <rect>
       <x>160</x>
       <y>110</y>
-      <width>31</width>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
@@ -510,6 +515,12 @@ QProgressBar::chunk {
      <height>131</height>
     </rect>
    </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(44, 44, 44);
 color: white;</string>
@@ -523,10 +534,10 @@ color: white;</string>
    <widget class="QLabel" name="TitleLV">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>70</x>
       <y>10</y>
-      <width>71</width>
-      <height>16</height>
+      <width>111</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -560,10 +571,10 @@ QProgressBar::chunk {
    <widget class="QLabel" name="VoltslV">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>40</x>
       <y>90</y>
-      <width>31</width>
-      <height>16</height>
+      <width>41</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -573,10 +584,10 @@ QProgressBar::chunk {
    <widget class="QLabel" name="CelsiusLV">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>120</x>
       <y>90</y>
-      <width>31</width>
-      <height>16</height>
+      <width>41</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -608,8 +619,8 @@ color: white;</string>
      <rect>
       <x>90</x>
       <y>10</y>
-      <width>41</width>
-      <height>16</height>
+      <width>51</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -620,9 +631,9 @@ color: white;</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>58</y>
-      <width>81</width>
-      <height>16</height>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -633,7 +644,7 @@ color: white;</string>
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>50</y>
+      <y>55</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -686,9 +697,9 @@ color: white;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>50</y>
-      <width>31</width>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
@@ -808,9 +819,9 @@ QProgressBar::chunk {
        <widget class="QLabel" name="label_6">
         <property name="geometry">
          <rect>
-          <x>13</x>
+          <x>10</x>
           <y>10</y>
-          <width>31</width>
+          <width>41</width>
           <height>16</height>
          </rect>
         </property>
