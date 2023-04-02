@@ -223,9 +223,9 @@ color: white;
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>30</x>
        <y>40</y>
-       <width>80</width>
+       <width>121</width>
        <height>80</height>
       </rect>
      </property>
@@ -442,6 +442,7 @@ color: white;</string>
      <string notr="true">QProgressBar {
      border: none;
      background-color: rgb(44, 44, 44);
+	  text-align: center;
  }
 
 QProgressBar::chunk {
@@ -557,6 +558,7 @@ color: white;</string>
      <string notr="true">QProgressBar {
      border: none;
      background-color: rgb(44, 44, 44);
+	text-align: center;
  }
 
 QProgressBar::chunk {
@@ -720,6 +722,7 @@ color: white;</string>
      <string notr="true">QProgressBar {
      border: none;
      background-color: rgb(44, 44, 44);
+	text-align: center;
  }
 
 QProgressBar::chunk {
