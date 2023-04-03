@@ -399,5 +399,5 @@ if __name__ == "__main__":
     Widget = QtWidgets.QWidget()
     ui = Ui_Widget()
     ui.setupUi(Widget)
-    Widget.show()
+    Widget.showFullScreen()
     sys.exit(app.exec_())
