@@ -112,7 +112,7 @@ class Ui_Widget(object):
         self.CircularPB.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.CircularPB.setStyleSheet("QFrame{\n"
 "    border-radius: 100px;\n"
-"    background-color: qconicalgradient(cx:0.5, cy:0.5, angle:240, stop:0.4 rgba(210, 22, 116, 0), stop:1 rgba(23, 165, 0, 255));\n"
+"    background-color: qconicalgradient(cx:0.5, cy:0.5, angle:240, stop:0.95  rgba(210, 22, 116, 0), stop:1 rgba(23, 165, 0, 255));\n"
 "}")
         self.CircularPB.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.CircularPB.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -373,8 +373,9 @@ class Ui_Widget(object):
         self.label_6.setGeometry(QtCore.QRect(10, 10, 41, 16))
         self.label_6.setObjectName("label_6")
         self.label_7 = QtWidgets.QLabel(self.frame_2)
-        self.label_7.setGeometry(QtCore.QRect(12, 25, 31, 16))
+        self.label_7.setGeometry(QtCore.QRect(15, 25, 31, 16))
         self.label_7.setObjectName("label_7")
+        self.label_7.setStyleSheet("font-size: 10px")
 
         self.retranslateUi(Widget)
         QtCore.QMetaObject.connectSlotsByName(Widget)
@@ -393,12 +394,12 @@ class Ui_Widget(object):
         self.AutocrossButon.setText(_translate("Widget", "Autocross"))
         self.SkidpadButton.setText(_translate("Widget", "Skidpad"))
         self.EnduranceButton.setText(_translate("Widget", "Endurance"))
-        self.label.setText(_translate("Widget", "72"))
+        self.label.setText(_translate("Widget", "0"))
         self.label_2.setText(_translate("Widget", "Km/h"))
         self.TitleHV.setText(_translate("Widget", "High Voltage"))
         self.VoltsHV.setText(_translate("Widget", "72.4 V"))
         self.CelsiusHV.setText(_translate("Widget", "36 ºC"))
-        self.AmperesHV.setText(_translate("Widget", "104 A"))
+        self.AmperesHV.setText(_translate("Widget", "0 A"))
         self.TitleLV.setText(_translate("Widget", "Low Voltage"))
         self.VoltslV.setText(_translate("Widget", "12 V"))
         self.CelsiusLV.setText(_translate("Widget", "36 ºC"))
