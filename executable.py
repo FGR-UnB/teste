@@ -11,6 +11,17 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Widget(object):
+    
+
+    def buttonClicked(self, buttonStatus: QtWidgets.QFrame):
+        lista = [self.BrakeStatus, self.AccelerationStatus, self.AutocrossStatus, self.SkidpadStatus, self.EnduranceStatus]
+
+        for status in lista:
+            if (status != buttonStatus):
+                status.setStyleSheet("background-color: rgb(108, 108, 108)")
+            else:
+                status.setStyleSheet("background-color: rgb(23, 165, 0)")                          
+
     def setupUi(self, Widget):
         Widget.setObjectName("Widget")
         Widget.resize(844, 481)
@@ -367,6 +378,12 @@ class Ui_Widget(object):
 
         self.retranslateUi(Widget)
         QtCore.QMetaObject.connectSlotsByName(Widget)
+
+        self.BrakeButton.clicked.connect(lambda: self.buttonClicked(self.BrakeStatus))
+        self.AccelerationButton.clicked.connect(lambda: self.buttonClicked(self.AccelerationStatus))
+        self.AutocrossButon.clicked.connect(lambda: self.buttonClicked(self.AutocrossStatus))
+        self.SkidpadButton.clicked.connect(lambda: self.buttonClicked(self.SkidpadStatus))
+        self.EnduranceButton.clicked.connect(lambda: self.buttonClicked(self.EnduranceStatus))
 
     def retranslateUi(self, Widget):
         _translate = QtCore.QCoreApplication.translate
