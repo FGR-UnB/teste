@@ -281,7 +281,7 @@ class Ui_Widget(object):
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
         self.TitleSystem = QtWidgets.QLabel(self.frame)
-        self.TitleSystem.setGeometry(QtCore.QRect(90, 10, 51, 21))
+        self.TitleSystem.setGeometry(QtCore.QRect(90, 10, 61, 21))
         self.TitleSystem.setObjectName("TitleSystem")
         self.StatusTitle = QtWidgets.QLabel(self.frame)
         self.StatusTitle.setGeometry(QtCore.QRect(80, 60, 111, 21))

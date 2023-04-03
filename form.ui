@@ -37,10 +37,14 @@
        </sizepolicy>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(44, 44, 44);
-color: white;
-
-</string>
+       <string notr="true">QPushButton{
+	background-color: rgb(44, 44, 44);
+	color: white;
+	border:  none;
+	border-radius: 20px;
+	
+	border-top-color: rgb(255, 255, 255);
+}</string>
       </property>
       <property name="text">
        <string>Brake</string>
@@ -58,7 +62,8 @@ color: white;
       <property name="styleSheet">
        <string notr="true">background-color: rgb(44, 44, 44);
 color: white;
-
+border:  none;
+border-radius: 20px;
 </string>
       </property>
       <property name="text">
@@ -77,7 +82,8 @@ color: white;
       <property name="styleSheet">
        <string notr="true">background-color: rgb(44, 44, 44);
 color: white;
-
+border:  none;
+border-radius: 20px;
 </string>
       </property>
       <property name="text">
@@ -96,7 +102,8 @@ color: white;
       <property name="styleSheet">
        <string notr="true">background-color: rgb(44, 44, 44);
 color: white;
-
+border:  none;
+border-radius: 20px;
 </string>
       </property>
       <property name="text">
@@ -115,7 +122,8 @@ color: white;
       <property name="styleSheet">
        <string notr="true">background-color: rgb(44, 44, 44);
 color: white;
-
+border:  none;
+border-radius: 20px;
 </string>
       </property>
       <property name="text">
@@ -621,7 +629,7 @@ color: white;</string>
      <rect>
       <x>90</x>
       <y>10</y>
-      <width>51</width>
+      <width>61</width>
       <height>21</height>
      </rect>
     </property>
